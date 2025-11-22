@@ -1,1 +1,95 @@
-<style>#ceriabutton-banner{display:none}@media (max-width:768px){#ceriabutton-banner{display:flex;position:fixed;left:0;right:0;bottom:59px;justify-content:center;z-index:99999;transform:translateY(0)}#ceriabutton-container{position:relative;width:94%;max-width:430px;display:flex;justify-content:center}#close-ceria-btn{position:absolute;top:-18px;right:4px;background:#ff2b2b;color:#fff;font-size:12px;padding:3px 7px;border-radius:50%;cursor:pointer;z-index:999999;box-shadow:0 0 4px rgba(0,0,0,.4)}}</style><div id="ceriabutton-banner"><div id="ceriabutton-container"><div id="close-ceria-btn">✕</div><button class="snow-btn group"><span class="glow-moving"><span class="glow-bar"></span></span><span class="btn-content"><span class="bg-purple"></span><span class="icon-wrap"><img src="https://plcl.me/images/vhT3c.png" class="icon-star"></span><span class="text-marquee"><span class="running-text">Deposit sekarang di CERIABET &amp; langsung klaim bonusnya!</span></span><a href="https://access.vpnceria.life/telenewgroup" class="claim-btn">CLAIM</a><span class="snow-overlay"><canvas id="snowCanvas"></canvas></span></span></button></div></div><style>.snow-btn{position:relative;display:inline-flex;width:100%;border-radius:9999px;padding:2px;background:0 0;border:none;overflow:visible}.glow-moving{position:absolute;inset:0;animation:gl0m 10s ease-in-out infinite alternate;z-index:1;pointer-events:none}.glow-bar{position:absolute;top:0;left:50%;width:3px;height:100%;transform:translateX(-50%);filter:blur(4px);background:linear-gradient(135deg,#7a69f9,#f26378,#f5833f);animation:gl0s 10s ease-in-out infinite alternate}.btn-content{position:relative;z-index:2;display:flex;align-items:center;gap:8px;padding:6px 14px;height:36px;width:100%;border-radius:9999px;overflow:hidden;box-shadow:0 0 0 1px #fff}.bg-purple{position:absolute;inset:0;background:linear-gradient(135deg,#250036,#1a0232,#35004f);border-radius:inherit}.icon-wrap{position:relative;z-index:5}.icon-star{width:22px;height:22px}.text-marquee{position:relative;flex:1;height:20px;overflow:hidden;z-index:5}.running-text{position:absolute;left:0;white-space:nowrap;font-size:12px;font-weight:600;color:#fff;animation:mrq 10s linear infinite}.claim-btn{position:relative;z-index:6;padding:5px 12px;border-radius:9999px;background:#000;color:#fff;font-size:12px;font-weight:700;text-decoration:none;flex-shrink:0}.snow-overlay{position:absolute;inset:0;z-index:10;pointer-events:none}#snowCanvas{width:100%;height:100%;display:block}@keyframes mrq{from{transform:translateX(100%)}to{transform:translateX(-100%)}}@keyframes gl0m{from{transform:translateX(0)}to{transform:translateX(20px)}}@keyframes gl0s{from{width:3px}to{width:12px}}</style><script>!function(){var e=document.getElementById("close-ceria-btn"),t=document.getElementById("ceriabutton-banner");e&&e.addEventListener("click",function(){t&&(t.style.display="none")});var n=document.getElementById("snowCanvas");if(!n)return;var o=n.getContext("2d"),r=[],a=14,i=function(){n.width=n.offsetWidth,n.height=n.offsetHeight,c()},c=function(){r=[];for(var e=0;e<a;e++)r.push({x:Math.random()*n.width,y:Math.random()*n.height,r:1.9*Math.random()+.5,s:.27*Math.random()+.05})},d=function(){o.clearRect(0,0,n.width,n.height),o.fillStyle="rgba(255,255,255,0.9)",o.beginPath(),r.forEach(function(e){o.moveTo(e.x,e.y),o.arc(e.x,e.y,e.r,0,2*Math.PI)}),o.fill(),l()},l=function(){r.forEach(function(e){e.y+=e.s,e.y>n.height&&(e.y=-e.r,e.x=Math.random()*n.width)})},f=function(){d(),requestAnimationFrame(f)};i(),window.addEventListener("resize",i),f()}();</script>
+(function(){
+  function r(f){if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",f);}else{f();}}
+  r(function(){
+    var d=document;
+    var css="#ceriabutton-banner{display:none}@media (max-width:768px){#ceriabutton-banner{display:flex;position:fixed;left:0;right:0;bottom:59px;justify-content:center;z-index:99999;transform:translateY(0)}#ceriabutton-container{position:relative;width:94%;max-width:430px;display:flex;justify-content:center}#close-ceria-btn{position:absolute;top:-18px;right:4px;background:#ff2b2b;color:#fff;font-size:12px;padding:3px 7px;border-radius:50%;cursor:pointer;z-index:999999;box-shadow:0 0 4px rgba(0,0,0,.4)}}.snow-btn{position:relative;display:inline-flex;width:100%;border-radius:9999px;padding:2px;background:transparent;border:none;overflow:visible}.glow-moving{position:absolute;inset:0;animation:gl0m 10s ease-in-out infinite alternate;z-index:1;pointer-events:none}.glow-bar{position:absolute;top:0;left:50%;width:3px;height:100%;transform:translateX(-50%);filter:blur(4px);background:linear-gradient(135deg,#7a69f9,#f26378,#f5833f);animation:gl0s 10s ease-in-out infinite alternate}.btn-content{position:relative;z-index:2;display:flex;align-items:center;gap:8px;padding:6px 14px;height:36px;width:100%;border-radius:9999px;overflow:hidden;box-shadow:0 0 0 1px #fff}.bg-purple{position:absolute;inset:0;background:linear-gradient(135deg,#250036,#1a0232,#35004f);border-radius:inherit}.icon-wrap{position:relative;z-index:5}.icon-star{width:22px;height:22px}.text-marquee{position:relative;flex:1;height:20px;overflow:hidden;z-index:5}.running-text{position:absolute;left:0;white-space:nowrap;font-size:12px;font-weight:600;color:#fff;animation:mrq 10s linear infinite}.claim-btn{position:relative;z-index:6;padding:5px 12px;border-radius:9999px;background:#000;color:#fff;font-size:12px;font-weight:700;text-decoration:none;flex-shrink:0}.snow-overlay{position:absolute;inset:0;z-index:10;pointer-events:none}#snowCanvas{width:100%;height:100%;display:block}@keyframes mrq{from{transform:translateX(100%)}to{transform:translateX(-100%)}}@keyframes gl0m{from{transform:translateX(0)}to{transform:translateX(20px)}}@keyframes gl0s{from{width:3px}to{width:12px}}";
+    var sty=d.createElement("style");
+    sty.type="text/css";
+    sty.appendChild(d.createTextNode(css));
+    (d.head||d.getElementsByTagName("head")[0]).appendChild(sty);
+
+    var html = ''+
+      '<div id="ceriabutton-banner">'+
+        '<div id="ceriabutton-container">'+
+          '<div id="close-ceria-btn">✕</div>'+
+          '<button class="snow-btn group">'+
+            '<span class="glow-moving"><span class="glow-bar"></span></span>'+
+            '<span class="btn-content">'+
+              '<span class="bg-purple"></span>'+
+              '<span class="icon-wrap">'+
+                '<img src="https://plcl.me/images/vhT3c.png" class="icon-star" />'+
+              '</span>'+
+              '<span class="text-marquee">'+
+                '<span class="running-text">Deposit sekarang di CERIABET &amp; langsung klaim bonusnya!</span>'+
+              '</span>'+
+              '<a href="https://access.vpnceria.life/telenewgroup" class="claim-btn">CLAIM</a>'+
+              '<span class="snow-overlay"><canvas id="snowCanvas"></canvas></span>'+
+            '</span>'+
+          '</button>'+
+        '</div>'+
+      '</div>';
+
+    var temp = d.createElement("div");
+    temp.innerHTML = html;
+    var banner = temp.firstElementChild;
+    d.body.appendChild(banner);
+
+    var closeBtn = d.getElementById("close-ceria-btn");
+    closeBtn && closeBtn.addEventListener("click", function(){
+      banner.style.display = "none";
+    });
+
+    var canvas = d.getElementById("snowCanvas");
+    if(!canvas) return;
+    var ctx = canvas.getContext("2d");
+    var flakes = [];
+    var FLAKE_COUNT = 14;
+
+    function resizeCanvas(){
+      canvas.width = canvas.offsetWidth;
+      canvas.height = canvas.offsetHeight;
+      createFlakes();
+    }
+
+    function createFlakes(){
+      flakes = [];
+      for(var i=0;i<FLAKE_COUNT;i++){
+        flakes.push({
+          x: Math.random()*canvas.width,
+          y: Math.random()*canvas.height,
+          r: Math.random()*1.4+0.5,
+          s: Math.random()*0.22+0.05
+        });
+      }
+    }
+
+    function draw(){
+      ctx.clearRect(0,0,canvas.width,canvas.height);
+      ctx.fillStyle="rgba(255,255,255,0.9)";
+      ctx.beginPath();
+      for(var i=0;i<flakes.length;i++){
+        var f=flakes[i];
+        ctx.moveTo(f.x,f.y);
+        ctx.arc(f.x,f.y,f.r,0,Math.PI*2);
+      }
+      ctx.fill();
+      move();
+      requestAnimationFrame(draw);
+    }
+
+    function move(){
+      for(var i=0;i<flakes.length;i++){
+        var f=flakes[i];
+        f.y+=f.s;
+        if(f.y>canvas.height){
+          f.y=-f.r;
+          f.x=Math.random()*canvas.width;
+        }
+      }
+    }
+
+    resizeCanvas();
+    window.addEventListener("resize",resizeCanvas);
+    draw();
+  });
+})();
